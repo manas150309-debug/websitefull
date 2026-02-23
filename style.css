@@ -1,0 +1,163 @@
+/* RESET */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+html{
+  scroll-padding-top:70px;
+  scroll-behavior:smooth;
+}
+
+#container{
+  max-width:1200px;
+  margin:auto;
+}
+
+/* HEADER */
+#header{
+  background:grey;
+  height:70px;
+  position:fixed;
+  width:100%;
+  top:0;
+}
+
+.menu{
+  list-style:none;
+  float:right;
+  padding:0 20px;
+}
+
+.menu li{
+  display:inline-block;
+  line-height:70px;
+}
+
+.menu li a{
+  color:white;
+  text-decoration:none;
+  padding:0 20px;
+  font-size:20px;
+  text-transform:uppercase;
+}
+
+.menu li a:hover{
+  background:white;
+  color:black;
+}
+
+.show-btn,.hide-btn{
+  font-size:30px;
+  color:white;
+  line-height:70px;
+  display:none;
+  cursor:pointer;
+}
+
+/* BANNER */
+#banner{
+  margin-top:90px;
+  height:650px;
+  background:url("https://i.imgur.com/qIxEnMl.jpg") center/cover;
+  color:white;
+  font-size:40px;
+  display:flex;
+}
+
+#banner h2{
+  margin:20px;
+}
+
+/* TEAM */
+#team{
+  margin:20px;
+}
+
+.circle img{
+  width:250px;
+  height:250px;
+  border-radius:50%;
+  float:left;
+  margin-left:40px;
+}
+
+/* ABOUT */
+#left-side{
+  width:50%;
+  height:400px;
+  background:gray;
+  float:left;
+  color:white;
+  padding:20px;
+}
+
+#right-side{
+  width:48%;
+  float:right;
+}
+
+.artical{
+  height:120px;
+  margin-bottom:20px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:white;
+}
+
+#p1{background:url("https://i.imgur.com/JyMz0CR.jpg") center/cover;}
+#p2{background:url("https://i.imgur.com/GFLWoXM.jpeg") center/cover;}
+#p3{background:url("https://i.imgur.com/uzmZqZA.jpg") center/cover;}
+
+/* TECHNOLOGY */
+.grid{
+  width:20%;
+  float:left;
+  margin-left:50px;
+  background:lightgrey;
+  border-radius:8px;
+  box-shadow:0 5px 5px rgba(0,0,0,.2);
+}
+
+.grid img{
+  width:100%;
+}
+
+.grid h4{
+  text-align:center;
+}
+
+.grid p{
+  padding:10px;
+  color:white;
+}
+
+.grid a{
+  display:block;
+  text-align:center;
+  background:red;
+  color:white;
+  padding:10px;
+  text-decoration:none;
+  border-radius:8px;
+}
+
+.grid a:hover{
+  background:blue;
+}
+
+h1{
+  text-align:center;
+  padding:25px 0;
+}
+
+/* FOOTER */
+#footer{
+  background:plum;
+  height:100px;
+  text-align:center;
+  padding:20px;
+}
